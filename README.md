@@ -62,3 +62,40 @@ DB_PASSWORD=your_password
 DB_HOST=localhost
 DB_PORT=5432
 
+## ▶️ Quick Start
+
+```bash
+# 1. Clone & Navigate
+git clone https://github.com/SaurabhSB)7/PRODIGY_BD_02.git
+cd PRODIGY_BD_01
+
+# 2. Virtual Environment
+python -m venv venv
+source venv/bin/activate  # Linux/Mac
+# venv\Scripts\activate  # Windows
+
+# 3. Install Dependencies
+pip install django djangorestframework
+
+# 4. Run Server
+python manage.py runserver
+
+# 5. Test API
+# http://127.0.0.1:8000/api/users/
+
+---
+🧪 Testing
+
+APIs tested using Postman
+
+All CRUD operations verified successfully
+----
+
+📚 Internship Info
+
+Internship: Prodigy InfoTech
+
+Track: Backend Development
+
+Task: 02 – Persistent Storage with Database Integration
+
